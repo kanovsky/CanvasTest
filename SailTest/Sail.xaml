@@ -1,0 +1,18 @@
+﻿<UserControl 
+    x:Class="Pear.RiaServices.Client.DataComponent.Sail"
+    
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+    
+    xmlns:local="clr-namespace:Pear.RiaServices.Client.DataComponent"
+    
+    mc:Ignorable="d" >
+
+    <local:ScrollViewerEx x:Name="scrollViewerEx" Grid.Column="0"
+        VertPosition="{Binding VerticalScrolPosition, Mode=TwoWay}"
+        HorzPosition="{Binding HorizontalScrollPosition, Mode=TwoWay}" />
+
+</UserControl>

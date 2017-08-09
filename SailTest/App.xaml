@@ -1,0 +1,78 @@
+﻿<Application x:Class="SailTest.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SailTest"
+             StartupUri="MainWindow.xaml">
+    
+    <Application.Resources>
+        <SolidColorBrush x:Name="BlueLight"  x:Key ="BlueLight" Color="#FFD6DBF0" />
+        <SolidColorBrush x:Name="BlueHeavy"  x:Key ="BlueHeavy" Color="#FFB4B4E6" />
+        <SolidColorBrush x:Name="BlueText"   x:Key ="BlueText"  Color="#FF5F75D6" />
+
+        <SolidColorBrush x:Name="GreenLight"  x:Key ="GreenLight" Color="#FFD6F0DB" />
+        <SolidColorBrush x:Name="GreenHeavy"  x:Key ="GreenHeavy" Color="#FFB4E6B4" />
+        <SolidColorBrush x:Name="GreenText"   x:Key ="GreenText"  Color="#FF5FD675" />
+
+        <SolidColorBrush x:Name="WhiteCalendar" x:Key ="WhiteCalendar" Color="#FFFEFEFE" />
+        <SolidColorBrush x:Name="RedText" x:Key ="RedText" Color="#FFD96767" />
+
+        <SolidColorBrush x:Name="LightGreen" x:Key ="LightGreen" Color="#CC00B410" />
+        <SolidColorBrush x:Name="DarkOrange" x:Key="DarkOrange" Color="#EE7600" />
+        <SolidColorBrush x:Name="DarkGreen" x:Key ="DarkGreen" Color="#CC005100" />
+
+        <LinearGradientBrush x:Key="RedBackground" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Offset="0" Color="#EED84040"/>
+            <GradientStop Offset="1" Color="#EEFF2020"/>
+            <GradientStop Offset="2" Color="#EEDD1010"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="PinkBackground" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Offset="0" Color="#FFFF6CC9"/>
+            <GradientStop Offset="1" Color="#FFFD90E9"/>
+            <GradientStop Offset="2" Color="#FFFDB3F9"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="GreenBackground" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Offset="0" Color="#CC005900"/>
+            <GradientStop Offset="1" Color="#CC249524"/>
+            <GradientStop Offset="2" Color="#CC2ECF2E"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="LightGreenBackground" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Offset="0" Color="#CC40D840"/>
+            <GradientStop Offset="1" Color="#CC00FF00"/>
+            <GradientStop Offset="2" Color="#CC008100"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="BlueBackground" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Offset="0" Color="#CC4040D8"/>
+            <GradientStop Offset="1" Color="#CC0000FF"/>
+            <GradientStop Offset="2" Color="#CC000081"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="YellowBackground" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Offset="0" Color="#CCD8B745"/>
+            <GradientStop Offset="1" Color="#CCFFC80A"/>
+            <GradientStop Offset="2" Color="#CC818100"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="MagentaBackground" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Offset="0" Color="#CCBD247F"/>
+            <GradientStop Offset="1" Color="#CCDC48A0"/>
+            <GradientStop Offset="2" Color="#CCF967BE"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="GreyBackground" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Offset="0" Color="#CC808080"/>
+            <GradientStop Offset="1" Color="#CCa0a0a0"/>
+            <GradientStop Offset="2" Color="#CC404040"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="OrangeBackground" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Offset="0" Color="Orange"/>
+            <GradientStop Offset="1" Color="Orange"/>
+            <GradientStop Offset="2" Color="Orange"/>
+        </LinearGradientBrush>
+
+    </Application.Resources>
+</Application>
